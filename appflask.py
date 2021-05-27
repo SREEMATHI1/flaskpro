@@ -11,7 +11,7 @@ app = Flask(__name__)
 mysql.init_app(app)
 api = Api(app)
 app.config['MYSQL_DATABASE_USER'] = 'SREEMATHI'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'SREEMAISH1@'
+app.config['MYSQL_DATABASE_PASSWORD'] = '*****'
 app.config['MYSQL_DATABASE_DB'] = 'mydatabase'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 
